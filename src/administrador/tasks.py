@@ -4,7 +4,6 @@ class Tasks():
         self.tasks = []
         self.target = None
 
-
     def getTasks(self):
         return self.tasks
     
