@@ -2,8 +2,10 @@ from src.targets.target import Target
 
 class Vehicle(Target):
 
-    def __init__(self):
-        Target.__init__(self)
-
-    def ejecucucion(self, usuario):
+    def ejecucion(self, usuario):
         print('Puerta abierta {0}!'.format(usuario)) 
+
+if __name__ == "__main__":
+    
+    vehicle = Vehicle()
+    vehicle.ejecucion("Antonio")
